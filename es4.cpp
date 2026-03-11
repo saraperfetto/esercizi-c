@@ -4,10 +4,15 @@ using namespace std;
 
 int main() {
 int n;
-int fattoriale=1;
-cin>>n;
 cout << "dimmi il numero: " << n << endl;
-while(1>=n){
-i++;
+cin>>n;
+int totale=1;
+
+
+while(n>1){
+    totale = totale * n;
+n--;
 }
+cout <<totale << endl;;
+
 }
