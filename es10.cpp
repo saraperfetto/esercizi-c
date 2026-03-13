@@ -17,7 +17,7 @@ int main() {
     cin>> n;
     cout<< "il n di dipe è " << n << endl;
 
-    for(int i=0; i<n; i++)){
+    for(int i=0; i<n; i++){
 
         cout<< "inserisci il tipo di contratto: 1=tempopieno, 2=Part-time, 3=Stage";
         cin>> tipocontratto;
@@ -38,5 +38,4 @@ int main() {
          cout<< "lo stipe è" <<  stipendio << endl;
 
         }
-
-    }
+    }    
